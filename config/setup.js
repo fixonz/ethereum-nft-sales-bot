@@ -1,4 +1,4 @@
-import 'dotenv/config';
+import { env } from ".env";
 import { createRequire } from 'module';
 import { createAlchemyWeb3 } from '@alch/alchemy-web3';
 
